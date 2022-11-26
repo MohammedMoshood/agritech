@@ -1,0 +1,72 @@
+import { FaCartPlus } from "react-icons/fa";
+import styled from "styled-components"
+
+
+
+export const HeroSection = styled.section`
+  width: "100%";
+  max-width: 1500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
+export const HeroH = styled.h2`
+font-family: "DM Sans";
+font-size: 50px;
+color: #0e2042;
+`
+export const HeroP = styled.p`
+    font-family: "Inter";
+    line-height: 1.8;
+    font-size: 16px;
+ color: grey;
+ margin-top: 10px;
+`
+
+export const Container = styled.div`
+width: 85%;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+`
+
+export const HeroImg = styled.img`
+    
+`
+
+export const HeroRight = styled.div`
+width: 50%;
+`
+export const HeroLeft = styled.div`
+gap: 20px;
+`
+
+export const ShopDiv = styled.a`
+    display:flex;
+    color: white;
+    background-color: #346dd6;
+    width: 120px;
+    align-items: center;
+    padding: 10px 5px;
+    margin-top: 20px;
+    border-radius: 5px;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+    transition: 0.4s all;
+    &:hover{
+        background-color: #122a57;
+        
+}
+`
+export const ShopText = styled.p`
+    font-family: "Inter";
+    font-size: 12px;
+    
+    
+`
+export const ShopIcon = styled(FaCartPlus)`
+    
+`

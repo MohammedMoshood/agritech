@@ -1,0 +1,53 @@
+export const productdata = [
+{
+    productname:"",
+    productimage:"",
+    productprice:"",
+    productamount:""
+},
+{
+    productname:"",
+    productimage:"",
+    productprice:"",
+    productamount:""
+},
+{
+    productname:"",
+    productimage:"",
+    productprice:"",
+    productamount:""
+},
+{
+    productname:"",
+    productimage:"",
+    productprice:"",
+    productamount:""
+},
+{
+    productname:"",
+    productimage:"",
+    productprice:"",
+    productamount:""
+},{
+    productname:"",
+    productimage:"",
+    productprice:"",
+    productamount:""
+},{
+    productname:"",
+    productimage:"",
+    productprice:"",
+    productamount:""
+},{
+    productname:"",
+    productimage:"",
+    productprice:"",
+    productamount:""
+},{
+    productname:"",
+    productimage:"",
+    productprice:"",
+    productamount:""
+},
+
+]
