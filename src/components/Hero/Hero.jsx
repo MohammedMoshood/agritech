@@ -1,10 +1,10 @@
 import React from "react";
-import { HeroSection, HeroH, Container, HeroImg, HeroLeft, HeroRight, HeroP, ShopDiv, ShopText, ShopIcon } from "./HeroElements";
-import Img1 from "../../images/HeroImg1.svg";
+import { HeroSection, HeroH, Container,  HeroLeft, HeroRight, HeroP, ShopDiv, ShopText, ShopIcon } from "./HeroElements";
+import fruitbg from "../../images/fruitbg.jpg";
 const Hero = () => {
   return (
-    <HeroSection>
-      <Container>
+    <HeroSection  >
+      <Container style={{backgroundImage:` url(${fruitbg})` , backgroundSize:"100% 100%"}} >
         <HeroLeft>
           <HeroH>
             Best Crops <br /> Money Can Buy
@@ -18,7 +18,6 @@ const Hero = () => {
           </ShopDiv>
         </HeroLeft>
         <HeroRight>
-          <HeroImg width={"100%"} src={Img1} />
         </HeroRight>
       </Container>
     </HeroSection>

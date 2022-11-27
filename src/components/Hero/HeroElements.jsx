@@ -7,14 +7,15 @@ export const HeroSection = styled.section`
   width: "100%";
   max-width: 1500px;
   display: flex;
+  background-repeat: no-repeat;
   align-items: center;
   justify-content: center;
 `;
 
 export const HeroH = styled.h2`
 font-family: "DM Sans";
-font-size: 50px;
-color: #0e2042;
+font-size: 70px;
+  color: #132350;
 `
 export const HeroP = styled.p`
     font-family: "Inter";
@@ -25,10 +26,11 @@ export const HeroP = styled.p`
 `
 
 export const Container = styled.div`
-width: 85%;
-  max-width: 1200px;
+width: 100%;
+height: 80vh;
   display: flex;
   align-items: center;
+  padding: 0 70px;
   justify-content: space-between;
 `
 
@@ -49,7 +51,7 @@ export const ShopDiv = styled.a`
     background-color: #346dd6;
     width: 120px;
     align-items: center;
-    padding: 10px 5px;
+    padding: 15px 10px;
     margin-top: 20px;
     border-radius: 5px;
     justify-content: center;
@@ -63,7 +65,7 @@ export const ShopDiv = styled.a`
 `
 export const ShopText = styled.p`
     font-family: "Inter";
-    font-size: 12px;
+    font-size: 14px;
     
     
 `

@@ -1,21 +1,20 @@
 import styled from "styled-components";
-import { FaCartPlus, FaShoppingCart } from "react-icons/fa";
+import {  FaShoppingCart } from "react-icons/fa";
 
 export const Nav = styled.section`
   width: "100%";
   max-width: 1500px;
   height: 80px;
   display: flex;
+  background: #132350;
   align-items: center;
   justify-content: center;
 `;
 
 export const Navcontainer = styled.nav`
-  width: 85%;
-  max-width: 1200px;
+  width: 100%;
   display: flex;
-  border-bottom: 1px solid #e1eafa;
-  padding: 10px 0;
+  padding: 10px 40px;
   align-items: center;
   justify-content: space-between;
   
@@ -28,12 +27,13 @@ export const Logo = styled.img`
 export const Logotext  = styled.h3`
   font-family: "Inter";
     display: flex;
+    color: white;
     font-size: 20px;
     align-items: center;
 `
 
 export const LinkDiv = styled.div`
-  gap: 30px;
+  gap: 60px;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -45,8 +45,9 @@ export const ItemDiv = styled.a`
   cursor: pointer;
   text-decoration: none;
   transition: 0.4s all;
+  color: white;
   &:hover {
-    background-color: #f5f5f5;
+    background-color: rgba(151, 187, 255, 0.3);
 
     a {
       transition: 0.1s;
@@ -74,7 +75,7 @@ export const CartDiv = styled.div`
   border-radius: 8px;
   &:hover {
     transition: 0.4s all;
-    background-color: #346dd6;
+    background-color: rgba(52, 109, 214 , 0.2);
     color: white;
 
     svg{
@@ -88,11 +89,12 @@ export const CartDiv = styled.div`
 
 export const CartIcon = styled(FaShoppingCart)`
   transition: 0.2s all;
+  color: white;
   
 `;
 
 export const CartText = styled.p`
   font-size: 14px;
-  color: black;
+  color: white;
   font-family: "Inter";
 `;

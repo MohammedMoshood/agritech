@@ -1,24 +1,24 @@
 export const productdata = [
 {
-    productname:"",
+    productname:"Orange",
     productimage:"",
     productprice:"",
     productamount:""
 },
 {
-    productname:"",
+    productname:"Pear",
     productimage:"",
     productprice:"",
     productamount:""
 },
 {
-    productname:"",
+    productname:"Avocado",
     productimage:"",
     productprice:"",
     productamount:""
 },
 {
-    productname:"",
+    productname:"Chicken",
     productimage:"",
     productprice:"",
     productamount:""
@@ -50,4 +50,8 @@ export const productdata = [
     productamount:""
 },
 
+]
+
+export const fruitdata = [
+    
 ]
