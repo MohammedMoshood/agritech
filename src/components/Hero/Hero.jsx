@@ -12,7 +12,7 @@ const Hero = () => {
           <HeroP>
              Cuab Farms is the best place to get <br/> your neat and affordable freshly produced crops 
           </HeroP>
-          <ShopDiv>
+          <ShopDiv href="/products" >
             <ShopText>Shop Now</ShopText>
             <ShopIcon></ShopIcon>
           </ShopDiv>

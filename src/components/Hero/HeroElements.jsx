@@ -27,7 +27,7 @@ export const HeroP = styled.p`
 
 export const Container = styled.div`
 width: 100%;
-height: 80vh;
+height: 79.2vh;
   display: flex;
   align-items: center;
   padding: 0 70px;
@@ -57,6 +57,7 @@ export const ShopDiv = styled.a`
     justify-content: center;
     gap: 10px;
     cursor: pointer;
+    text-decoration: none;
     transition: 0.4s all;
     &:hover{
         background-color: #122a57;

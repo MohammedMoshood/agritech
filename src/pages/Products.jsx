@@ -1,12 +1,16 @@
 import React from 'react'
 import Navbar from '../components/Navbar/Navbar'
 import Fruit from '../components/products/Fruit'
+import Footer from '../components/Footer/Footer'
 
-const Products = () => {
+const Products = ({handleAdd , cartItems}) => {
   return (
     <>
-        <Navbar/>
-        <Fruit/>
+        <Navbar cartItems={cartItems} />
+        <Fruit handleAdd={handleAdd} />
+        <Fruit handleAdd={handleAdd} />
+        <Footer/>
+
     </>
   )
 }

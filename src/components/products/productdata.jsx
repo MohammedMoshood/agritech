@@ -1,57 +1,42 @@
-export const productdata = [
+import pearImg from "../../images/pear.jpg";
+import orangeImg from "../../images/orange.jpg";
+import avocadoImg from "../../images/avocado.jpg";
+import appleImg from "../../images/apple.png";
+import { Img } from "./ProductElements";
+
+
+export const fruitdata = [
 {
-    productname:"Orange",
-    productimage:"",
-    productprice:"",
-    productamount:""
+    id:"1",
+    name:"Orange",
+    image:<Img src={orangeImg} ></Img>,
+    price:"600",
+    amount:""
 },
 {
-    productname:"Pear",
-    productimage:"",
-    productprice:"",
-    productamount:""
+    name:"Pear",
+    image:<Img src={pearImg} ></Img>,
+    id:"2",
+    price:"1200",
+    amount:""
 },
 {
-    productname:"Avocado",
-    productimage:"",
-    productprice:"",
-    productamount:""
+    name:"Avocado",
+    image:<Img src={avocadoImg} ></Img>,
+    id:"3",
+    price:"1500",
+    amount:""
 },
 {
-    productname:"Chicken",
-    productimage:"",
-    productprice:"",
-    productamount:""
-},
-{
-    productname:"",
-    productimage:"",
-    productprice:"",
-    productamount:""
-},{
-    productname:"",
-    productimage:"",
-    productprice:"",
-    productamount:""
-},{
-    productname:"",
-    productimage:"",
-    productprice:"",
-    productamount:""
-},{
-    productname:"",
-    productimage:"",
-    productprice:"",
-    productamount:""
-},{
-    productname:"",
-    productimage:"",
-    productprice:"",
-    productamount:""
-},
+    name:"Apple",
+    image:<Img src={appleImg} ></Img>,
+    id:"4",
+    price:"1200",
+    amount:""
+}
 
 ]
 
-export const fruitdata = [
+export const livestockdata = [
     
 ]

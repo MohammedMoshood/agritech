@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import {FaPlus} from "react-icons/fa"
 
 export const Section = styled.section`
   width: "100%";
@@ -10,7 +11,10 @@ export const Section = styled.section`
   flex-direction: column;
 `;
 
-export const HDiv = styled.div``;
+export const HDiv = styled.div`
+display:flex;
+align-items: center;
+`;
 
 export const SectionH = styled.h2`
   font-family: "DM Sans";
@@ -31,9 +35,18 @@ export const FruitCard = styled.div`
   background-color: white;
   display: flex;
   flex-direction: column;
+  cursor: pointer;
   align-items: center;
-  justify-content: center;
   padding: 20px;
+  transition: 0.3s all;
+  &:hover{
+    transform: scale(0.95);
+    box-shadow: #346dd6  2px 2px 50px ;
+
+    .add{
+        background-color: lightgreen;
+    }
+  }
 `;
 
 export const ImgDiv = styled.div`
@@ -46,4 +59,39 @@ export const Img = styled.img`
 border-radius: 50% ;
 width: 100%;
 `;
-export const Name = styled.h5``;
+export const Name = styled.h5`
+font-size: 14px;
+font-family: "Inter";
+margin-top: 10px;
+`;
+
+export const BottomCardDiv = styled.div`
+  display: flex;
+height: 40px;
+width: 100%;
+margin-top: 10px;
+align-items: center;
+justify-content: space-between;
+`
+
+export const Price = styled.p`
+  color: #346dd6;
+  font-family: "Inter";
+  
+  font-size: 14px;
+`
+
+export const AddDiv = styled.div`
+  color: white;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#346dd6  ;
+  border-radius: 50%;
+`
+
+export const Sign = styled(FaPlus)`
+
+`
