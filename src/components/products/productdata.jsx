@@ -1,42 +1,68 @@
-import pearImg from "../../images/pear.jpg";
 import orangeImg from "../../images/orange.jpg";
+import pearImg from "../../images/pear.jpg";
 import avocadoImg from "../../images/avocado.jpg";
 import appleImg from "../../images/apple.png";
-import { Img } from "./ProductElements";
-
+// import { Img } from "./ProductElements";
+import Fathia from "../../images/chicken.jpg"
+import Sheep from "../../images/sheep.png"
+import Goat from "../../images/goat.png"
+import Cow from "../../images/cow.jpg"
 
 export const fruitdata = [
 {
     id:"1",
     name:"Orange",
-    image:<Img src={orangeImg} ></Img>,
+    image:orangeImg,
     price:"600",
-    amount:""
 },
 {
     name:"Pear",
-    image:<Img src={pearImg} ></Img>,
+    image:pearImg,
     id:"2",
     price:"1200",
-    amount:""
 },
 {
     name:"Avocado",
-    image:<Img src={avocadoImg} ></Img>,
+    image:avocadoImg,
     id:"3",
     price:"1500",
-    amount:""
 },
 {
     name:"Apple",
-    image:<Img src={appleImg} ></Img>,
+    image:appleImg,
     id:"4",
     price:"1200",
-    amount:""
 }
 
 ]
 
 export const livestockdata = [
-    
+    {
+        id:"a",
+        name:"Chicken",
+        image:Fathia,
+        price:"3000",
+
+    },
+    {
+        name:"Sheep",
+        image:Sheep,
+        id:"b",
+        price:"25000",
+
+    },
+    {
+        name:"Goat",
+        image:Goat,
+        id:"c",
+        price:"10500",
+
+    },
+    {
+        name:"Cow",
+        image:Cow,
+        id:"d",
+        price:"100000",
+
+    }
 ]

@@ -13,13 +13,13 @@ import {
   SectionH,
   Sign,
 } from "./ProductElements";
-import { fruitdata } from "./productdata";
+import {livestockdata } from "./productdata";
 
-const Fruit = ({handleAdd}) => {
+const Livestock = ({handleAdd}) => {
   return (
     <Section>
       <HDiv>
-        <SectionH>Fruits and Vegetables</SectionH>
+        <SectionH>Livestock </SectionH>
         <div
           style={{
             marginLeft: "10px",
@@ -31,7 +31,7 @@ const Fruit = ({handleAdd}) => {
         ></div>
       </HDiv>
       <FruitsContainer>
-        {fruitdata.map((item) => {
+        {livestockdata.map((item) => {
           return (
             <FruitCard key={item.id} onClick={ () => handleAdd(item)} >
               <ImgDiv>
@@ -40,7 +40,7 @@ const Fruit = ({handleAdd}) => {
               <Name>{item.name}</Name>
               <BottomCardDiv>
                 <div>
-                  <Price>{`N ${item.price} /doz`}</Price>
+                  <Price>{`N ${item.price} `}</Price>
                 </div>
 
                 <AddDiv  className="add">
@@ -55,4 +55,4 @@ const Fruit = ({handleAdd}) => {
   );
 };
 
-export default Fruit;
+export default Livestock;

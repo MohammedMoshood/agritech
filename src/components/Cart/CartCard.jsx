@@ -1,5 +1,6 @@
 import React from "react";
 import { FaMinus, FaPlus } from "react-icons/fa";
+import { Img } from "../products/ProductElements";
 import {
   AddDiv,
   Amount,
@@ -35,7 +36,7 @@ const CartCard = ({ cartItems, handleAdd, handleDelete, handleMinus }) => {
     0
   );
 
-  const VAT = (7.5/100)*totalPrice
+  const VAT = (7.5 / 100) * totalPrice;
   return (
     <div style={{ display: "flex" }}>
       <Section check={check}>
@@ -62,7 +63,7 @@ const CartCard = ({ cartItems, handleAdd, handleDelete, handleMinus }) => {
             {cartItems.map((item) => {
               return (
                 <CartItem key={item.id}>
-                  <ImgDiv>{item.image}</ImgDiv>
+                  <ImgDiv><Img src ={item.image} alt={item.name}></Img></ImgDiv>
                   <div style={{ textAlign: "left", width: "80px" }}>
                     <Name>{item.name}</Name>
                   </div>
