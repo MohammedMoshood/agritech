@@ -16,6 +16,9 @@ export const HeroH = styled.h2`
 font-family: "DM Sans";
 font-size: 70px;
   color: #132350;
+  @media screen and (max-width: 768px) {
+   font-size: 30px;
+  }
 `
 export const HeroP = styled.p`
     font-family: "Inter";
@@ -32,6 +35,10 @@ height: 79.2vh;
   align-items: center;
   padding: 0 70px;
   justify-content: space-between;
+  @media screen and (max-width: 768px) {
+    padding: 0 20px;
+    height: 85vh;
+  }
 `
 
 export const HeroImg = styled.img`

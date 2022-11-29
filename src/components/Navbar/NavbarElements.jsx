@@ -18,9 +18,15 @@ export const Navcontainer = styled.nav`
   padding: 10px 40px;
   align-items: center;
   justify-content: space-between;
+  @media screen and (max-width: 768px) {
+    padding: 10px 10px;
+  }
 `;
 export const Logo = styled.img`
   height: 60px;
+  @media screen and (max-width: 480px) {
+    display: none;
+  }
 `;
 
 export const Logotext = styled.h3`
@@ -29,6 +35,9 @@ export const Logotext = styled.h3`
   color: white;
   font-size: 20px;
   align-items: center;
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
 `;
 
 export const LinkDiv = styled.div`
@@ -36,6 +45,9 @@ export const LinkDiv = styled.div`
   justify-content: center;
   align-items: center;
   display: flex;
+  @media screen and (max-width: 768px) {
+    gap: 5px;
+  }
 `;
 export const ItemDiv = styled(Link)`
   border-radius: 8px;

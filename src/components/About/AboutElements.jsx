@@ -9,6 +9,12 @@ export const Section = styled.div`
   gap: 25px;
   height: 72.9vh;
   align-items: center;
+  @media screen and (max-width: 768px) {
+        padding: 20px 50px;
+        height: 82vh;
+        gap: 200px;
+
+  }
 `;
 
 export const TextDiv = styled.p`
@@ -19,8 +25,13 @@ export const TextDiv = styled.p`
 
 export const ImageDiv = styled.div`
   width: 50%;
-  justify-content: space-between;
   display: flex;
+  justify-content: space-between;
+
+  @media screen and (max-width: 768px) {
+    width: 80%;
+    gap: 30px;
+  }
 `;
 
 export const QualityDiv = styled.div`
@@ -31,6 +42,9 @@ export const QualityDiv = styled.div`
   padding: 40px;
   align-items: center;
   gap: 20%;
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
 `;
 
 export const ImgCont = styled.div`
@@ -43,6 +57,10 @@ export const ImgCont = styled.div`
   align-items: center;
 font-size: 80px;
 gap: 30px;
+@media screen and (max-width: 768px) {
+    
+    
+  }
 
 `;
 export const Img = styled.img`

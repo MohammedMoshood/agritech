@@ -16,6 +16,7 @@ import {
   ItemText,
   MinusDiv,
   Name,
+  Overall,
   Price,
   Section,
   SectionB,
@@ -38,7 +39,7 @@ const CartCard = ({ cartItems, handleAdd, handleDelete, handleMinus }) => {
 
   const VAT = (7.5 / 100) * totalPrice;
   return (
-    <div style={{ display: "flex" }}>
+    <Overall >
       <Section check={check}>
         <TopDiv>
           <TotalAmount style={{}}>Your Container</TotalAmount>
@@ -105,7 +106,7 @@ const CartCard = ({ cartItems, handleAdd, handleDelete, handleMinus }) => {
           <Checkout>Checkout</Checkout>
         </SectionB>
       )}
-    </div>
+    </Overall>
   );
 };
 

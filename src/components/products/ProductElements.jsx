@@ -9,23 +9,34 @@ export const Section = styled.section`
   background: #132350;
   gap: 40px;
   flex-direction: column;
+  @media screen and (max-width: 768px) {
+   padding: 20px 20px;
+  }
 `;
 
 export const HDiv = styled.div`
 display:flex;
 align-items: center;
+
 `;
 
 export const SectionH = styled.h2`
   font-family: "DM Sans";
   font-size: 40px;
   color: white;
+  @media screen and (max-width:768px) {
+    font-size: 20px;
+  }
 `;
 
 export const FruitsContainer = styled.div`
 display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
+@media screen and (max-width:768px) {
+    gap: 20px;
+    justify-content: center;
+  }
 `;
 
 export const FruitCard = styled.div`

@@ -1,6 +1,13 @@
 import styled from "styled-components";
 import { FaTrash } from "react-icons/fa";
 
+export const Overall = styled.div`
+  display:flex;
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
+`
+
 export const Section = styled.section`
   padding: 40px 10px;
   display: flex;
@@ -12,6 +19,10 @@ export const Section = styled.section`
   max-width: 1500px;
   background: #132350;
   transition: 0.3S all;
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    padding: 40px 0;
+  }
 `;
 
 export const Container = styled.div`
@@ -21,6 +32,10 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   gap: 10px;
+  @media screen and (max-width:768px) {
+    width: 90%;
+    padding: 30px 10px;
+  }
 `;
 
 export const TopDiv = styled.div`
@@ -29,6 +44,9 @@ export const TopDiv = styled.div`
    display: flex;
    justify-content: space-between;
    width: 600px;
+   @media screen and (max-width:768px) {
+    width: 90%;
+  }
    
 `
 export const TotalAmount = styled.h1`
@@ -51,6 +69,7 @@ export const CartItem = styled.div`
 export const ImgDiv = styled.div`
   width: 80px;
   height: 80px;
+ 
 `;
 export const Name = styled.p``;
 export const Amount = styled.p``;
